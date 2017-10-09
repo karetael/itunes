@@ -1,0 +1,104 @@
+
+
+.container{
+    padding: 0;
+    margin: 0;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+  .img-fluid {
+      max-width: 100%;
+      height: auto;
+  }
+
+.background-image1{
+  background-image: url("style-image/background-05.png"); 
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.background-image2{
+    background-image: url("style-image/wireframe, visual designs-05.png"); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+  .background-image3{
+    background-image: url("style-image/tumblr_static_tumblr_static_abbmvt9p2tc0w08wgkcwk48cw_640.jpg"); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+.font-color{
+    color: white;
+}
+
+/* Centered text */
+.centered-right {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    font-size: 1.5em;
+    color: white;
+}
+
+.centered-left {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    color: white;
+}
+
+.row{
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+.col-12 {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+
+
+
+
+
+ /* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+
+    h1{
+        font-size:20em; 
+    }
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
