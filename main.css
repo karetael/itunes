@@ -1,13 +1,37 @@
 
+p{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
-.container{
-    padding: 0;
-    margin: 0;
+h1 h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.thickletters{
+    font-weight: bold;
+}
+
+
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
 }
 
 .selector-for-some-widget {
     box-sizing: content-box;
   }
+
+
+h2{
+    text-decoration: underline;
+}
 
 
   .img-fluid {
@@ -19,18 +43,21 @@
   background-image: url("style-image/background-05.png"); 
   background-size: 100% 100%;
   background-attachment: fixed;
+  padding: 20px;
 }
 
 .background-image2{
     background-image: url("style-image/wireframe, visual designs-05.png"); 
     background-size: 100% 100%;
     background-attachment: fixed;
+    padding: 20px;
   }
 
   .background-image3{
     background-image: url("style-image/tumblr_static_tumblr_static_abbmvt9p2tc0w08wgkcwk48cw_640.jpg"); 
     background-size: 100% 100%;
     background-attachment: fixed;
+    padding: 20px;
   }
 
 .font-color{
@@ -56,17 +83,28 @@
 }
 
 .row{
-    margin-top: 10pt;
-    margin-bottom: 10pt;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
 }
 
-.col-12 {
-    margin-top: 10pt;
-    margin-bottom: 10pt;
-}
-
-
-
+.footer {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px;
+    margin-top: 30px;
+  }
+  
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
 
 
 
@@ -85,19 +123,22 @@
 
 /* Medium devices (tablets, 768px and up)*/
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    
+    .centered-right{
+        font-size:3.5em; 
+    }
+    .centered-left{
+        font-size:3.5em; 
+    }
+}
 
 
 /* Large devices (desktops, 992px and up)*/
 
 @media (min-width: 992px) {
 
-    h1{
-        font-size:20em; 
-    }
-
 }
-
 
 /* Extra large devices (large desktops, 1200px and up)*/
 
