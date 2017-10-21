@@ -122,7 +122,8 @@ h2{
 /* Footer*/
 
 .footer {
-    background-color: white;
+    background-color: lightgray;
+    color: black;
     width: 100%;
     text-align: center;
     font-family: sans-serif;
