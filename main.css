@@ -53,10 +53,11 @@ button a{
     color: white;
 }
 
-a{
+p a{
     text-decoration: none;
-    color: white; 
+    color: black; 
 }
+
 
 .selector-for-some-widget {
     box-sizing: content-box;
